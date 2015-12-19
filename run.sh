@@ -21,13 +21,8 @@ if [ "$(uname -s)" = "Darwin" ]; then
         brew tap Homebrew/bundle
     }
 
-    brew bundle check >/dev/null 2>&1 || {
-        progress "Installing Homebrew dependencies…"
-        brew bundle
-    }
-
-    progress "Starting Homebrew services…"
-    brew services start php56
+    progress "Installing Homebrew dependencies…"
+    brew bundle
 elif hash apt-get >/dev/null 2>&1; then
     dpkg -s nginx php5 php5-cli php5-fpm >/dev/null 2>&1 || {
         progress "Installing dependencies…"
