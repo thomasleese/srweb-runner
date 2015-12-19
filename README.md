@@ -8,8 +8,8 @@ In the past users who wished to work on the [Student Robotics][sr] website had t
 
 ## Instructions
 
-1. Clone `srweb` how you like to a `srweb` directory.
-2. Run `run.sh` script from the runner directory.
+1. Clone [srweb][srweb] how you like to a directory named `srweb`.
+2. Run the `run.sh` script from the runner directory.
 
 [sr]: https://www.studentrobotics.org
 [srweb]: https://www.studentrobotics.org/cgit/srweb.git/tree/README
